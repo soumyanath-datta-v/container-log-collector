@@ -1,0 +1,9 @@
+{
+    "logFilePath": "logs/app-state-prod.log",
+    "kubectlNamespace": "prod",
+    "podFilter": [
+        "mymobility-apps",
+        "mymobility-platform-api"
+    ],
+    "collectionIntervalMinutes": 60
+}
